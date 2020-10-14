@@ -26,9 +26,9 @@ I removed the laser PCB and tried hooking it up to my DC power supply to figure 
 (.) <- ????, but I'm guessing it's a photo diode to detect how bright the laser is
 ```
 
-I also hooked up a magnet-mirror-thing to my power supply. As I increased the voltage, it tilted in one direction (it seemed to tilt linearly with the increase in voltage, but it was hard to tell). I flipped the negative and positive leads, and as I once again increased the voltage the mirror tilted in the other direction. It didn't take much voltage at all to get the mirror to move.
+I also hooked up a magnet-mirror-thing to my power supply. As I increased the voltage, it tilted in one direction (it seemed to tilt linearly with the increase in voltage, but it was hard to tell). I flipped the negative and positive leads, and as I once again increased the voltage the mirror tilted in the other direction. It didn't take much voltage at all to get the mirror to move. It seems to travel its entire range between 0-1V.
 
-Update: I think I fried the laser. Oh well. It was good while it lasted. It now lets through a LOT of current and it no longer lights up :(
+Update: I think I fried the laser. Oh well. It was good while it lasted. It now lets through a LOT of current and it no longer lights up :( From what I remember, it started to light up faintly at around 2V, then gets much brighter very quickly with tiny increases in voltage past that (along with the current increasing very quickly). I think that's how I fried it: I increased the voltage too quickly. I'm going to try and salvage the diode from a DVD drive as a replacement.
 
 ## Repurposing idea
 
