@@ -22,7 +22,7 @@ I removed the laser PCB and tried hooking it up to my DC power supply to figure 
 
 ```
 (.) <- Positive laser, I got it to light up at around 2V (with limited current)
-    (.) <- Negative, connected to the body of the laser diode
+   (.) <- Negative, connected to the body of the laser diode
 (.) <- ????, but I'm guessing it's a photo diode to detect how bright the laser is
 ```
 
