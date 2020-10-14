@@ -25,3 +25,9 @@ I removed the laser PCB and tried hooking it up to my DC power supply to figure 
     (.) <- Negative, connected to the body of the laser diode
 (.) <- ????, but I'm guessing it's a photo diode to detect how bright the laser is
 ```
+
+I also hooked up a magnet-mirror-thing to my power supply. As I increased the voltage, it tilted in one direction (it seemed to tilt linearly with the increase in voltage, but it was hard to tell). I flipped the negative and positive leads, and as I once again increased the voltage the mirror tilted in the other direction. It didn't take much voltage at all to get the mirror to move.
+
+## Repurposing idea
+
+I'm thinking I'll control the magnet-mirror-things with some diodes (so I can get current to flow either way?) and the PWM output from my STM32F103 "Blue Pill". Hopefully I'll be able to move them accurately and fast enough to project some cool shapes!
